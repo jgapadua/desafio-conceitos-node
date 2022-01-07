@@ -20,7 +20,14 @@ function validateId(request, response, next){
 }
 
 app.get("/repositories", (request, response) => {
-  return response.json(repositories);
+
+  const { title } = request.query;
+
+  const results = title
+  ? repositories.filter(repository => repository.title.includes(title))
+  : repositories;
+
+  return response.json(results);
 });
 
 app.post("/repositories", (request, response) => {
