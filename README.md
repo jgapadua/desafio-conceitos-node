@@ -5,10 +5,6 @@
   <p align="center">
   <img src="https://img.shields.io/badge/tech-back--end-brightgreen" />
 
-  <a href="https://expressjs.com/pt-br/">
-    <img src="https://img.shields.io/badge/framework-express-green" />
-  </a>
-
   <a href="https://github.com/Rocketseat">
     <img src="https://img.shields.io/badge/source-rocketseat-blueviolet" />
   </a>
